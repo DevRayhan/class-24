@@ -125,3 +125,34 @@ a{
     font-size: 21px;
     padding: 13px 0;
 }
+
+/* card section start */
+.cardGrid{
+    display: flex;
+}
+.singleCard span {
+    background-color: #5252f0;
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    font-size: 27px;
+    color: #ffff;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 50px 50px 50px 0px;
+    margin: 27px 0;
+    position: relative;
+}
+.singleCard span::after {
+    content: "";
+    width: 37px;
+    height: 3px;
+    background: #5252f0;
+    position: absolute;
+    left: 0;
+    bottom: -17px;
+}
+.singleCard p{
+    color: #899097;
+    font-size: 16px;
+}
