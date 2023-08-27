@@ -34,11 +34,13 @@ a{
     visibility: hidden;
     opacity: 0;
     transition: .5s;
+    transform: scale(0);
 }
-.menu ul li:hover::after{
+.menu ul li:hover::before{
     width: 100%;
     visibility: visible;
     opacity: 1;
+    transform: scale(1);
 }
 
 .menu ul li a {
