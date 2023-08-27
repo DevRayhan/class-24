@@ -86,6 +86,8 @@ a{
 /* hero section start */
 .heroSection{
     background-color: #edf6ff;
+    overflow: hidden;
+    padding: 177px 0;
 }
 .heroBtn{
     background-color: #0d6efd;
@@ -100,22 +102,21 @@ a{
     background-color: #ffff;
 }
 /* ...................... */
-.main-hero{
+/* .main-hero{
     display: flex;
-}
-.header-left{
-    align-items: end;
-}
+} */
 /* .......................... */
-/* .header-right{
+.hero-relative{
     position: relative;
 }
-.header-right img{
+.header-right img {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: -135%;
+    right: -38%;
     border-radius: 50%;
-} */
+    width: 700px;
+    height: 585px;
+}
 
 /* tool section start */
 .tool h6{
@@ -221,7 +222,7 @@ a{
     width: 100%;
     height: 100%;
     position: absolute;
-    background-color:#48526d57;
+    background-color:#21305c8e;
     z-index: -1;
 }
 .ani-text span{
@@ -229,4 +230,15 @@ a{
     height: 3px;
     display: inline-block;
     background-color: #ffff;
+}
+.ani-icon{
+    height: 70px;
+    width: 70px;
+    background-color: white;
+    text-align: center;
+    line-height: 70px;
+    color:#5252f0;
+    font-size: 27px;
+    border-radius: 50%;
+    margin: auto;
 }
